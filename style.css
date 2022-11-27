@@ -104,8 +104,8 @@ nav .navigation ul li a{
 }
 
 .headLineItem button{
+    text-decoration: none;
     margin-top: 40px;
-    color: white;
     width: 173px;
     height: 63px;
     background: #000000;
@@ -117,3 +117,7 @@ nav .navigation ul li a{
     text-transform: capitalize;
 }
 
+.buttonMint{
+    text-decoration: none;
+    color: white;
+}
