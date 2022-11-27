@@ -118,6 +118,6 @@ nav .navigation ul li a{
 }
 
 .buttonMint{
-    text-decoration: none;
-    color: white;
+    text-decoration: none !important;
+    color: white !important;
 }
