@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Clash Grotesk', sans-serif;
+    letter-spacing: -0.03em;
+    background-color: #FFF9F0;
+}
+/*
+div h1{
+    font-weight: 600;
+    font-size: 130px;
+    line-height: 96%;
+     or 135px 
+    
+    text-align: center;
+    letter-spacing: -0.03em;
+    text-transform: capitalize;
+    color: #000000;
+}*/
+
+header{
+    display: flex;
+    height: 110px;
+    width: 100%;
+}
+header nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+}
+
+.brand img{
+    height: 80px;
+}
+nav .navigation ul{
+    display: flex;
+    list-style: none;
+    margin-right: 100px;
+}
+
+nav .navigation ul li a{
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.socialMedia{
+    display: flex;
+}
+.social{
+    margin: 0px 10px;
+}
+
+.items{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 78.6%;
+    text-transform: uppercase;
+    color: #000000;
+    flex-grow: 0;
+}
+
+
+/* navigation section end  */
+
+.headLine{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.headLineItem h1{
+    font-weight: 600;
+    font-size: 141px;
+    line-height: 96%;
+    /* or 135px */
+    
+    text-align: center;
+    letter-spacing: -0.03em;
+    text-transform: capitalize;
+    
+    color: #000000;
+}
+
+.headLineItem h2{
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 96%;
+    /* or 23px */
+
+    text-align: center;
+    letter-spacing: -0.06em;
+    text-transform: capitalize;
+
+    color: #000000;
+}
+
+.headLineItem button{
+    margin-top: 40px;
+    color: white;
+    width: 173px;
+    height: 63px;
+    background: #000000;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 78.6%;
+    /* identical to box height, or 13px */
+    text-align: center;
+    text-transform: capitalize;
+}
+
