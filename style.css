@@ -313,14 +313,103 @@ nav .navigation ul li a{
     border-radius: 31px; 
 }
 .roadmapDiv{
-    display: flex;
-    flex-direction: column;
     width: 463px;
-    height: auto;
-    margin: 0px 50px; 
-    justify-items: center;
+    height: 282px;
+    margin: 0px 50px;  
+    padding-top: 50px;
+}
+/* ROADMAP section end  */
+
+.qustionSection{
+    margin-top: 100px;
+}
+.asked{
+    font-family: 'Clash Grotesk';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 93.6%;
+    /* or 45px */
+    text-align: center;
+    letter-spacing: -0.05em;
+    text-transform: capitalize;
+    color: #000000;
+}
+.whatIsDero{
+    width: 946px;
+    height: 141px;
+    background: #E7E1D8;
+    margin-top: 55px;
     
 }
+
+
+
+.whatIsDero p{
+    font-family: 'Clash Grotesk';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 147.6%;
+    /* or 24px */
+    letter-spacing: -0.02em;
+    text-transform: capitalize;
+    color: #252525;
+}
+
+.deroQus{
+    padding: 25px 50px;
+    margin: 20px 0px;
+}
+
+.specialDero{
+    width: 946px;
+    height: 73px;
+    background: #E7E1D8;
+}
+
+.qustionTitle{
+    font-family: 'Clash Grotesk';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #171717;
+}
+
+
+footer{
+    height: 324px;
+    background: #E7E1D8;
+    margin-top: 150px;
+}
+
+footer header nav{
+    justify-content: space-between !important;
+    margin: 80px 140px;
+} 
+
+footer header nav .navigation ul{
+    margin: 0 !important;
+}
+
+.copyRight{
+    font-family: 'Clash Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 145.6%;
+    /* or 23px */
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+
+
+
+
+
+
 
 
 
