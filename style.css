@@ -236,6 +236,7 @@ color: #000000;
 }
 
 .deroContainer img{
+    overflow: hidden;
     transition: transform 1s;
 }
 
