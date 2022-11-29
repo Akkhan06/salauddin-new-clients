@@ -1,0 +1,449 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Clash Grotesk', sans-serif;
+    letter-spacing: -0.05em !important;
+    background-color: #FFF9F0 !important;
+    text-decoration: none;
+}
+img{
+    object-fit: cover !important;
+}
+/*
+div h1{
+    font-weight: 600;
+    font-size: 130px;
+    line-height: 96%;
+     or 135px 
+    
+    text-align: center;
+    letter-spacing: -0.03em;
+    text-transform: capitalize;
+    color: #000000;
+}*/
+
+header{
+    display: flex;
+    height: 110px;
+    width: 100%;
+}
+header nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+}
+
+.brand img{
+    height: 80px;
+}
+nav .navigation ul{
+    display: flex;
+    list-style: none;
+    margin-right: 100px;
+}
+
+nav .navigation ul li a{
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.socialMedia{
+    display: flex;
+}
+.social{
+    margin: 0px 10px;
+}
+
+.items{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 78.6%;
+    text-transform: uppercase;
+    color: #000000;
+    flex-grow: 0;
+}
+
+
+/* navigation section end  */
+
+.headLine{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.headLineItem h1{
+    font-weight: 600;
+    font-size: 141px;
+    line-height: 96%;
+    /* or 135px */
+    
+    text-align: center;
+    letter-spacing: -0.07em;
+    text-transform: capitalize;
+    
+    color: #000000;
+}
+
+.headLineItem h2{
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 96%;
+    /* or 23px */
+
+    text-align: center;
+    letter-spacing: -0.09em;
+    text-transform: capitalize;
+
+    color: #000000;
+}
+
+.headLineItem button{
+    text-decoration: none;
+    margin-top: 40px;
+    width: 173px;
+    height: 63px;
+    background: #000000;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 78.6%;
+    /* identical to box height, or 13px */
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.buttonMint{
+    text-decoration: none;
+    color: white;
+}
+/* head line end  */
+
+
+.mainAbout{
+    height: 475.65px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.artical{
+    width: 500px;
+    height: auto;
+
+}
+
+.about{
+    margin: 0px 50px;
+}
+.mainAbout .about h6{
+    font-family: 'Clash Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 96%;
+    /* or 23px */
+    letter-spacing: -0.06em;
+    text-transform: capitalize;
+    color: #000000;
+    
+}
+
+.mainAbout .about h1{
+    font-family: 'Clash Grotesk';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 93.6%;
+    /* or 45px */
+    letter-spacing: -0.05em;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.mainAbout .about p{
+    box-sizing: border-box;
+    width: 494px;
+    height: 151px;
+    font-family: 'Clash Grotesk';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 147.6%;
+    /* or 24px */
+    letter-spacing: -0.02em;
+    text-transform: capitalize;
+    color: #252525 !important;
+    
+}
+.mainAbout .about #readMore{
+    border: 2px solid #000000;
+    padding: 15px 20px;
+    font-family: 'Clash Grotesk';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px !important;
+    line-height: 78.6%;
+    /* identical to box height, or 13px */
+    text-align: center;
+    text-transform: capitalize;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    background-color: transparent;
+    }
+    
+#readMore a{
+text-decoration: none;
+color: #000000;
+}
+.slider img{
+    width: 400px;
+    height: 400.65px;
+    transition: transform 1s;
+    
+}
+
+.slider{
+    overflow: hidden;
+    
+}
+
+.slider:hover img{
+    transform: scale(1.1);
+}
+.wosame{
+    width: 400px;
+    height: 400.65px; 
+}
+
+.imageGallery{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  
+}
+
+.deroContainer img{
+    transition: transform 1s;
+}
+
+.deroContainer{
+   
+}
+
+
+.deroContainer:hover img{
+    transform: scale(1.3);
+    z-index: 1;
+}
+
+.imageGallerySection{
+    margin-top: 100px;
+}
+
+.mainSlider{
+    right: initial;
+    top: initial;
+    display: flex;
+    animation: 40s linear 0s infinite normal none running scroll;
+}
+
+@keyframes scroll{
+    0% {
+        transform: translateX(0);
+    }
+    
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.secondSlider{
+    right: initial;
+    top: initial;
+    display: flex;
+    animation: 40s linear 0s infinite normal none running secondslid;
+}
+
+@keyframes secondslid{
+    0% {
+        transform: translateX(-100%);
+    }
+    
+    100% {
+        transform: translateX(0)
+    }
+}
+/* ROADMAP section start  */
+
+.roadMap{
+    display: block;
+    margin-top: 100px;
+}
+
+.press1{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.press2{
+    margin-top: 50px !important;
+}
+.press1 ul, .header1{
+    margin-left: 45px;
+    
+}
+
+.header1{
+     
+    font-family: 'Clash Grotesk';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 96%;
+    /* or 31px */
+
+    letter-spacing: -0.06em;
+    text-transform: capitalize;
+
+    color: #000000;
+}
+
+.press1 ul li{
+    font-family: 'Clash Grotesk';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 147.6%;
+    /* or 35px */
+
+    letter-spacing: -0.02em;
+    text-transform: capitalize;
+
+    color: #252525;
+    }
+
+.special{
+    border: 1px solid #000000;
+    border-radius: 31px; 
+}
+.roadmapDiv{
+    width: 463px;
+    height: 282px;
+    margin: 0px 50px;  
+    padding-top: 50px;
+}
+
+.special:hover{
+    box-shadow: 10px 20px 60px rgba(0, 0, 0, 0.1);
+    
+}
+/* ROADMAP section end  */
+
+.qustionSection{
+    margin-top: 100px;
+}
+.asked{
+    font-family: 'Clash Grotesk';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 93.6%;
+    /* or 45px */
+    text-align: center;
+    letter-spacing: -0.05em;
+    text-transform: capitalize;
+    color: #000000;
+}
+.whatIsDero{
+    width: 946px;
+    height: 141px;
+    background: #E7E1D8;
+    margin-top: 55px;
+    
+}
+
+
+
+.whatIsDero p{
+    font-family: 'Clash Grotesk';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 147.6%;
+    /* or 24px */
+    letter-spacing: -0.02em;
+    text-transform: capitalize;
+    color: #252525;
+}
+
+.deroQus{
+    padding: 25px 50px;
+    margin: 20px 0px;
+}
+
+.specialDero{
+    width: 946px;
+    height: 73px;
+    background: #E7E1D8;
+}
+
+.qustionTitle{
+    font-family: 'Clash Grotesk';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #171717;
+}
+
+
+footer{
+    height: 324px;
+    background: #E7E1D8;
+    margin-top: 150px;
+}
+
+footer header nav{
+    justify-content: space-between !important;
+    margin: 80px 140px;
+} 
+
+footer header nav .navigation ul{
+    margin: 0 !important;
+}
+
+.copyRight{
+    font-family: 'Clash Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 145.6%;
+    /* or 23px */
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
