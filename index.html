@@ -413,30 +413,54 @@
 
 
 <section class="qustionSection d-flex justify-content-center">
+<div class="faqMain">
+  <h1 class="asked" style="text-align: center ;">frequently asked questions</h1>
 
-  <div>
-    <h1 class="asked" style="text-align: center ;">frequently asked questions</h1>
 
-    <div class="whatIsDero">
-      <div class="deroQus">
-        <h1 class="qustionTitle">What are Dero Girls?</h1>
-      <p>Dero Girls is a project containing 1,000 NFTs. All of the funds received from holders will be used to reinvest into the Dero community to fund dApps / NFT projects.</p>
+  <div class="accordion">
+      <div class="containBox">
+        <div class="cross">
+          <h1 class="qustionTitle">What are Dero Girls?</h1>
+        </div>
+        <div class="contain">
+          <p class="faq">Dero Girls is a project containing 1,000 NFTs. All of the funds received from holders will be used to reinvest into the Dero community to fund dApps / NFT projects.</p>
+        </div>
       </div>
-    </div>
 
-    <div class="specialDero deroQus">
-      <h1 class="qustionTitle">What is our goal?</h1>
-    </div>
-    <div class="specialDero deroQus">
-      <h1 class="qustionTitle">How do I contact support?</h1>
-    </div>
-    <div class="specialDero deroQus">
-      <h1 class="qustionTitle">Where can I buy a Dero Girl?</h1>
-    </div>
+
+      <div class="containBox" >
+        <div class="cross">
+          <h1 class="qustionTitle">What are Dero Girls?</h1>
+        </div>
+        <div class="contain">
+          <p class="faq">Dero Girls is a project containing 1,000 NFTs. All of the funds received from holders will be used to reinvest into the Dero community to fund dApps / NFT projects.</p>
+        </div>
+      </div>
+
+
+
+      <div class="containBox">
+        <div class="cross">
+          <h1 class="qustionTitle">What are Dero Girls?</h1>
+        </div>
+        <div class="contain">
+          <p class="faq">Dero Girls is a project containing 1,000 NFTs. All of the funds received from holders will be used to reinvest into the Dero community to fund dApps / NFT projects.</p>
+        </div>
+      </div>
+
+
+      <div class="containBox">
+        <div class="cross">
+          <h1 class="qustionTitle">What are Dero Girls?</h1>
+        </div>
+        <div class="contain">
+          <p class="faq">Dero Girls is a project containing 1,000 NFTs. All of the funds received from holders will be used to reinvest into the Dero community to fund dApps / NFT projects.</p>
+        </div>
+      </div>
   </div>
+  </div>
+</div>
 </section>
-
-
 <footer>
 
   <header>
@@ -490,7 +514,17 @@
     </nav>
   </header>
 </footer>
+<script>
+const accordion = document.getElementsByClassName("containBox");
 
+for(let i = 0; i<accordion.length; i++){
+  accordion[i].addEventListener('click', function(){
+    this.classList.toggle('active')
+  })
+}
+
+
+</script>
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 <script src="app.js"></script>

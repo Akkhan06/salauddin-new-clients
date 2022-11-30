@@ -221,6 +221,7 @@ color: #000000;
 
 .slider:hover img{
     transform: scale(1.1);
+    
 }
 .wosame{
     width: 400px;
@@ -354,6 +355,8 @@ color: #000000;
 }
 /* ROADMAP section end  */
 
+
+/* FAQ section start  */
 .qustionSection{
     margin-top: 100px;
 }
@@ -369,40 +372,20 @@ color: #000000;
     text-transform: capitalize;
     color: #000000;
 }
-.whatIsDero{
+
+.accordion{
+    margin-top: 50px;
+}
+
+.containBox{
     width: 946px;
-    height: 141px;
     background: #E7E1D8;
-    margin-top: 55px;
-    
-}
-
-
-
-.whatIsDero p{
-    font-family: 'Clash Grotesk';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 147.6%;
-    /* or 24px */
-    letter-spacing: -0.02em;
-    text-transform: capitalize;
-    color: #252525;
-}
-
-.deroQus{
     padding: 25px 50px;
     margin: 20px 0px;
 }
 
-.specialDero{
-    width: 946px;
-    height: 73px;
-    background: #E7E1D8;
-}
-
 .qustionTitle{
+    position: relative;
     font-family: 'Clash Grotesk';
     font-style: normal;
     font-weight: 600;
@@ -411,6 +394,46 @@ color: #000000;
     text-transform: uppercase;
     color: #171717;
 }
+
+.qustionTitle::after{
+    content: "+";
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translateY(-50%);
+    color: rgba(22, 22, 22, 0.57);
+    width: 22px;
+    height: 20px;
+}
+
+.contain{
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+    overflow-y: auto;
+}
+
+.accordion .containBox.active .contain{
+    height: 50px;
+}
+.accordion .containBox.active .qustionTitle::after{
+    content: "-";
+   
+}
+   
+.faq{
+    width: 791px;
+    font-family: 'Clash Grotesk';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 147.6%;
+    letter-spacing: -0.02em;
+    text-transform: capitalize;
+    color: #252525;
+}
+
 
 
 footer{
